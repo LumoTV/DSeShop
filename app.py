@@ -11,15 +11,15 @@ def shop_menu():
   <games>
     <game>
       <id>0001</id>
-      <name>Super Fake Mario</name>
+      <name>3DSNAKE</name>
       <price>500</price>
-      <image>https://example.com/images/super_fake_mario.png</image>
+      <image>http://dancingpoilonours.atspace.cc/dseshop/ds-icon.png</image>
     </game>
     <game>
       <id>0002</id>
       <name>Fake Kart Racing</name>
       <price>700</price>
-      <image>https://example.com/images/fake_kart_racing.png</image>
+      <image>http://dancingpoilonours.atspace.cc/dseshop/ds-icon.png</image>
     </game>
   </games>
 </shop>'''
@@ -33,13 +33,13 @@ def game_details(game_id):
             "name": "Super Fake Mario",
             "description": "Un jeu de plateforme incroyable fait maison.",
             "price": 500,
-            "image": "https://example.com/images/super_fake_mario.png"
+            "image": "http://dancingpoilonours.atspace.cc/dseshop/ds-icon.png"
         },
         "0002": {
             "name": "Fake Kart Racing",
             "description": "Course de karts déjantée pour DSi.",
             "price": 700,
-            "image": "https://example.com/images/fake_kart_racing.png"
+            "image": "http://dancingpoilonours.atspace.cc/dseshop/ds-icon.png"
         }
     }
     game = games.get(game_id)
